@@ -1,0 +1,6 @@
+{
+  "name": "Unscripted Victories",
+  "description": "A sports storytelling and documentary platform dedicated to capturing the untold stories of athletes, teams, and communities across Africa.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
