@@ -6,7 +6,12 @@ export const Navbar = ({ onNavigate }: { onNavigate: (page: string) => void }) =
     return (
       <nav className="fixed top-4 w-full z-50 px-4">
         <div className="max-w-7xl mx-auto flex justify-between items-center text-white bg-black/30 backdrop-blur-md rounded-full py-4 px-8">
-          <h1 className="font-bold text-2xl tracking-tighter cursor-pointer" onClick={() => onNavigate('home')}>UV</h1>
+          <img
+  src="/assets/uvlogo2.png"
+  alt="Unscripted Victories Logo"
+  className="h-16 w-auto cursor-pointer"
+  onClick={() => onNavigate('home')}
+/>
           <div className="hidden md:flex space-x-8 items-center font-medium">
             <span className="cursor-pointer hover:text-gray-200" onClick={() => {onNavigate('home'); window.location.hash = '#mission';}}>Mission</span>
             <span className="cursor-pointer hover:text-gray-200" onClick={() => {onNavigate('home'); window.location.hash = '#projects';}}>Projects</span>

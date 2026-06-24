@@ -33,11 +33,11 @@ const founders = [
 ];
 
 const servicesData = [
-  { title: 'Documentary Production', image: '/assets/story1.jpeg', desc: 'Crafting powerful, cinematic visual stories.', details: 'Detailed info about our Documentary Production capabilities...', exampleLink: '#projects' },
-  { title: 'Sports Storytelling', image: '/assets/images (5).jpeg', details: 'We dive deep to uncover the stories that make sports matter.', exampleLink: '#projects' },
+  { title: 'Documentary Production', image: '/assets/story1.jpeg', desc: 'Crafting powerful, cinematic visual stories.', details: 'Detailed info about our Documentary Production capabilities...', exampleLink: 'https://www.youtube.com/watch?v=zG9dea1LTfo' },
+  { title: 'Sports Storytelling', image: '/assets/sat1.jpeg', details: 'We dive deep to uncover the stories that make sports matter.', exampleLink: 'https://www.instagram.com/reels/DOD_UI8DAqT/' },
   { title: 'Content Creation', image: '/assets/images (6).jpeg', desc: 'Dynamic media for diverse platforms.', details: 'Creating engaging content that resonates with your audience.', exampleLink: '#projects' },
-  { title: 'Event Coverage', image: '/assets/images (7).jpeg', desc: 'Capturing live energy and intensity.', details: 'Professional coverage for your most important sporting events.', exampleLink: '#projects' },
-  { title: 'Athlete Features', image: '/assets/Impact.jpg', details: 'Bringing the spotlight to athletes with compelling stories.', exampleLink: '#projects' }
+  { title: 'Event Coverage', image: '/assets/images (7).jpeg', desc: 'Capturing live energy and intensity.', details: 'Professional coverage for your most important sporting events.', exampleLink: 'https://www.instagram.com/reels/DP1tOY9jFqZ/' },
+  { title: 'Athlete Features', image: '/assets/Impact.jpg', details: 'Bringing the spotlight to athletes with compelling stories.', exampleLink: 'https://www.youtube.com/watch?v=tEec0IVQiAM' }
 ];
 
 const projectsData = [
@@ -159,7 +159,7 @@ export default function App() {
             </div>
             <div className="md:w-1/2">
                 <img 
-                    src="/assets/slouch2.jpeg" 
+                    src="/assets/mission.jpeg" 
                     alt="Mission" 
                     className="w-full h-full object-cover"
                     referrerPolicy="no-referrer"

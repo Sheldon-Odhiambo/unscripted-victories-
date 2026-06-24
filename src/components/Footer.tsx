@@ -6,9 +6,16 @@ export const Footer: React.FC = () => {
       <footer className="bg-gray-950 text-gray-400 py-16 px-8 mt-20 relative">
         <div className="max-w-7xl mx-auto grid md:grid-cols-3 gap-12 text-center md:text-left">
             <div>
-                <h4 className="text-white font-bold text-lg mb-4">Unscripted Victories</h4>
-                <p className="text-sm leading-relaxed">Documenting, celebrating, and elevating African sports stories through cinematic filmmaking and authentic storytelling.</p>
-            </div>
+                    <img
+                      src="/assets/uv-logo1.png"
+                      alt="Unscripted Victories Logo"
+                      className="h-14 w-auto mb-4"
+                    />
+                    <p className="text-sm leading-relaxed">
+                      Documenting, celebrating, and elevating African sports stories through
+                      cinematic filmmaking and authentic storytelling.
+                    </p>
+                  </div>
             <div>
                 <h4 className="text-white font-bold text-lg mb-4">Links</h4>
                 <ul className="space-y-2 text-sm">
@@ -22,8 +29,8 @@ export const Footer: React.FC = () => {
                 <p className="text-sm">Phone: +254725094775</p>
                 <p className="text-sm">unscriptedvictories24@gmail.com</p>
                 <div className="flex justify-center md:justify-start space-x-4 mt-4">
-                    <a href="#" className="hover:text-white transition"><Instagram size={20} /></a>
-                    <a href="#" className="hover:text-white transition"><Linkedin size={20} /></a>
+                    <a href="https://www.instagram.com/unscripted_victories/" className="hover:text-white transition"><Instagram size={20} /></a>
+                    {/* <a href="#" className="hover:text-white transition"><Linkedin size={20} /></a> */}
                 </div>
             </div>
         </div>
