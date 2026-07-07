@@ -12,6 +12,8 @@ import { ImpactSummary } from './components/ImpactSummary';
 import { Footer } from './components/Footer';
 import { DonatePage } from './components/DonatePage';
 import { Founders } from './components/Founders';
+import { Loader } from './components/Loader';
+
 
 const founders = [
   {
@@ -35,8 +37,8 @@ const founders = [
 const servicesData = [
   { title: 'Documentary Production', image: '/assets/story1.jpeg', desc: 'Crafting powerful, cinematic visual stories.', details: 'Detailed info about our Documentary Production capabilities...', exampleLink: 'https://www.youtube.com/watch?v=zG9dea1LTfo' },
   { title: 'Sports Storytelling', image: '/assets/sat1.jpeg', details: 'We dive deep to uncover the stories that make sports matter.', exampleLink: 'https://www.instagram.com/reels/DOD_UI8DAqT/' },
-  { title: 'Content Creation', image: '/assets/images (6).jpeg', desc: 'Dynamic media for diverse platforms.', details: 'Creating engaging content that resonates with your audience.', exampleLink: '#projects' },
-  { title: 'Event Coverage', image: '/assets/images (7).jpeg', desc: 'Capturing live energy and intensity.', details: 'Professional coverage for your most important sporting events.', exampleLink: 'https://www.instagram.com/reels/DP1tOY9jFqZ/' },
+  { title: 'Content Creation', image: '/assets/content.jpeg', desc: 'Dynamic media for diverse platforms.', details: 'Creating engaging content that resonates with your audience.', exampleLink: '#projects' },
+  { title: 'Event Coverage', image: '/assets/eventc.jpeg', desc: 'Capturing live energy and intensity.', details: 'Professional coverage for your most important sporting events.', exampleLink: 'https://www.instagram.com/reels/DP1tOY9jFqZ/' },
   { title: 'Athlete Features', image: '/assets/Impact.jpg', details: 'Bringing the spotlight to athletes with compelling stories.', exampleLink: 'https://www.youtube.com/watch?v=tEec0IVQiAM' }
 ];
 
@@ -224,6 +226,7 @@ export default function App() {
   <div className="flex flex-wrap items-center justify-center gap-12 max-w-6xl mx-auto px-4">
     {[
       { name: "Partner 1", logo: "/assets//partner11.png" },
+      { name: "Partner 1", logo: "/assets//partner12.png" },
      
      
     ].map((partner, i) => (
