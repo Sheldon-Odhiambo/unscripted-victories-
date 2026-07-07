@@ -14,7 +14,7 @@ export const Footer: React.FC = () => {
         {/* Logo & About */}
         <div>
           <img
-            src="/assets/uv-logo1.png"
+            src="/assets/footerlogo.png"
             alt="Unscripted Victories Logo"
             className="h-14 w-auto mb-4"
           />
