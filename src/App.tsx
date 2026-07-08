@@ -39,7 +39,7 @@ const servicesData = [
   { title: 'Sports Storytelling', image: '/assets/sat1.jpeg', details: 'We dive deep to uncover the stories that make sports matter.', exampleLink: 'https://www.instagram.com/reels/DOD_UI8DAqT/' },
   { title: 'Content Creation', image: '/assets/content.jpeg', desc: 'Dynamic media for diverse platforms.', details: 'Creating engaging content that resonates with your audience.', exampleLink: '#projects' },
   { title: 'Event Coverage', image: '/assets/eventc.jpeg', desc: 'Capturing live energy and intensity.', details: 'Professional coverage for your most important sporting events.', exampleLink: 'https://www.instagram.com/reels/DP1tOY9jFqZ/' },
-  { title: 'Athlete Features', image: '/assets/Impact.jpg', details: 'Bringing the spotlight to athletes with compelling stories.', exampleLink: 'https://www.youtube.com/watch?v=tEec0IVQiAM' }
+  { title: 'Athlete Features', image: '/assets/athlete story telling.jpeg', details: 'Bringing the spotlight to athletes with compelling stories.', exampleLink: 'https://www.youtube.com/watch?v=tEec0IVQiAM' }
 ];
 
 const projectsData = [
