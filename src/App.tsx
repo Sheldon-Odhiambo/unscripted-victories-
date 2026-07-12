@@ -225,8 +225,12 @@ export default function App() {
   {/* Partners logos */}
   <div className="flex flex-wrap items-center justify-center gap-12 max-w-6xl mx-auto px-4">
     {[
-      { name: "Partner 1", logo: "/assets//partner11.png" },
-      { name: "Partner 1", logo: "/assets//partner12.png" },
+      { name: "Partner 1", logo: "/assets/partner11.png" },
+      { name: "Partner 1", logo: "/assets/partner12.png" },
+      { name: "Partner 1", logo: "/assets/DD Latest Logo.svg" },
+      { name: "Partner 1", logo: "/assets/partner13.png" },
+
+
      
      
     ].map((partner, i) => (
