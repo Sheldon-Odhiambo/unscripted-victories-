@@ -3,7 +3,7 @@
  * SPDX-License-Identifier: Apache-2.0
  */
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Heart, Footprints, Instagram, Linkedin, Music, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Navbar } from './components/Navbar';
 import { ServiceDetail } from './components/ServiceDetail';
@@ -105,8 +105,15 @@ const Hero = () => (
 
 export default function App() {
   const [activeFounder, setActiveFounder] = useState(0);
-  const [activeService, setActiveService] = useState<any>(null); // Kept minimal for now to fix build
+  const [activeService, setActiveService] = useState<any>(null);
   const [activePage, setActivePage] = useState('home');
+
+  useEffect(() => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth',
+    });
+  }, [activePage]);
 
   if (activeService) {
     return (
